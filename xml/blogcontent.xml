@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<blogPost>
+		<title>New Effects!</title>
+		<date>07/29/12</date>
+		<content>Tweaked a lot of the demo levels for easier playability, added the original easy-to-splatter flying cat, and updated the explosion animation and a few other graphics.</content>
+		<photos>
+			<photo left="200px" top="370px">
+				<title>pNasty</title>
+				<image>pnastyMenu.jpg</image>
+			</photo>
+			<photo left="400px" top="320px">
+				<title>new explosions</title>
+				<image>newExplosion.jpg</image>
+			</photo>
+		</photos>
+	</blogPost>
+	<blogPost>
+		<title>Made This Site</title>
+		<date>08/13/2012</date>
+		<content>BAM! Knocked out the comp and initial build in one night. I'm making this thing with object oriented javascript and backbone.js for practice. So far it's made things a lot easier!</content>
+		<photos>
+		</photos>
+	</blogPost>
+	<blogPost>
+		<title>Updated Menus</title>
+		<date>08/13/2012</date>
+		<content>A bunch of menu fixes today, most importantly, you can turn down the music volume. Probably the greatest improvement ever made to ECA.</content>
+		<photos>
+			<photo left="12px" top="320px">
+				<title>Main</title>
+				<image>menu_main.jpg</image>
+			</photo>
+			<photo left="210px" top="340px">
+				<title>Cat-A-Log</title>
+				<image>menu_catalog.jpg</image>
+			</photo>
+			<photo left="420px" top="330px">
+				<title>Options</title>
+				<image>menu_options.jpg</image>
+			</photo>
+		</photos>
+	</blogPost>
+	<blogPost>
+		<title>Loaders Tweaked</title>
+		<date>08/15/2012</date>
+		<content>Worked on a lot of the initial load stuff.. turns out since I hadn't touched my main class since I knew what the hell was going on, stuff was getting loaded before it even knew it was stuff in the first pace... errors could occur all over the place. The quit button now works, granted you load the game from wwww.extremecatattack.com. Anyways, should be good now, and I changed the background window to black because... white browser backgrounds suck.</content>
+		<photos>
+			<photo left="200px" top="370px">
+				<title>Panther Loader</title>
+				<image>pantherLoader.jpg</image>
+			</photo>
+		</photos>
+	</blogPost>
+	<blogPost>
+		<title>Menu Transitions</title>
+		<date>08/19/12</date>
+		<content>Added menu transitions! so far only the 'start new game' option has one, but I'll make more as time goes on.</content>
+		<photos>
+			<photo left="150px" top="380px">
+				<title>happy kitty</title>
+				<image>kittenTransition.jpg</image>
+			</photo>
+		</photos>
+	</blogPost>
+	<blogPost>
+		<title>Blog is Working!</title>
+		<date>08/22/12</date>
+		<content>Updated site to hold blog entries! These will be up to date from now on. Learned xml parsing with jQuery and used some more backbone.js in order to get it rolling.</content>
+		<photos>
+		</photos>
+	</blogPost>
+	<blogPost>
+		<title>New Music</title>
+		<date>08/25/12</date>
+		<content>I was getting really sick of hearing Keyboard Cat. My wife and I set up our music room and I tried to get back into using GarageBand. I whipped up two songs that are currently on loop in the game. I'll be making more music later that plays specific to levels and events. I'm no trent reznor, but I'm going to at least figure out how to record my accordion through distortion pedals. It will happen.</content>
+		<photos>
+		</photos>
+	</blogPost>
+</data>

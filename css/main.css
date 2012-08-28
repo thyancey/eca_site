@@ -1,0 +1,291 @@
+
+/* --------------GLOBAL STUFF--------------- */
+/* --------------GLOBAL STUFF--------------- */
+/* --------------GLOBAL STUFF--------------- */
+/* --------------GLOBAL STUFF--------------- */
+
+*{
+	margin:0;
+	padding:0;
+	/*background-color:#000000;*/
+	
+}
+
+body{
+	background-image: url("../assets/images/background_blood.jpg");
+	background-repeat:both;
+}
+
+#shell{
+	position:absolute;
+	font-size:100%;
+	width:100%;
+	height:100%;
+	min-width:1024px;
+}
+
+header{
+	position:absolute;
+	color:#ffffff;
+	font-size:3em;
+	font-family:Sansita One, Impact, Sans-Serif;
+	width:100%;
+}
+
+/* --------------------FACEBOOK CRAP--------------- */
+
+/* --------------------HEADER STUFF--------------- */
+/* --------------------HEADER STUFF--------------- */
+/* --------------------HEADER STUFF--------------- */
+#header_beltBar{
+	position:absolute;
+	background-image: url("../assets/images/header/belt_sliver.png");
+	top:30px;
+	height:118px;
+	width:100%;
+	background-repeat:repeat-x;
+}
+
+#header_clasp{
+	position:absolute;
+	top:25px;
+	right:100px;
+	width:337px;
+	height:124px;
+}
+#header_slugBelt{
+	position:absolute;
+	top:25px;
+	right:0px;
+	width:272px;
+	height:646px;
+}
+#header_logo{
+	position:absolute;
+	top:15px;
+	left:25px;
+	width:610px;
+	height:167px;
+}
+
+
+
+/* --------------------NAV ITEMS--------------- */
+/* --------------------NAV ITEMS--------------- */
+/* --------------------NAV ITEMS--------------- */
+/* --------------------NAV ITEMS--------------- */
+
+nav.main{
+	position:absolute;
+	top: 140px;
+	left:100px;
+	width:450px;
+	font-size:2.5em;
+	font-weight:bold;
+	color:#1e4000;
+	height:100px;
+}
+nav.main div{
+	font-family:Patrick Hand, Impact, Sans-Serif;
+	cursor:pointer;
+	width:150px;
+	height:69px;
+	position:absolute;
+	background-repeat:no-repeat;
+}
+#nav_game{
+	left:100px;
+}
+
+#nav_game.inactive{
+	background-image:url("../assets/images/nav/text_game_inactive.png");
+}
+#nav_game.active{
+	background-image:url("../assets/images/nav/text_game_active.png");
+}
+
+#nav_blog{
+	left:200px;
+}
+#nav_blog.inactive{
+	background-image:url("../assets/images/nav/text_blog_inactive.png");
+}
+#nav_blog.active{
+	background-image:url("../assets/images/nav/text_blog_active.png");
+}
+
+#nav_contact{
+	left:300px;
+}
+#nav_contact.inactive{
+	background-image:url("../assets/images/nav/text_contact_inactive.png");
+}
+#nav_contact.active{
+	background-image:url("../assets/images/nav/text_contact_active.png");
+}
+
+
+
+/* --------------------CONTENT--------------- */
+/* --------------------CONTENT--------------- */
+/* --------------------CONTENT--------------- */
+div.content{
+	position: absolute;
+	left:50px;
+	top:200px;
+	width:720px;
+	height:575px;
+}
+div#content_game{
+	margin-top:50px;
+	top:100px;
+}
+
+
+
+.imageLink{
+	cursor:pointer;
+}
+.imageLink:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+div#content_contact_email{
+	position:absolute;
+	left:50px;
+	top:50px;
+}
+div#content_contact_facebook{
+	position:absolute;
+	left:350px;
+	top:350px;
+}
+
+div.contentLoader{
+	position:absolute;
+	left:250px;
+	top:350px;
+}
+
+div.blogCopy{
+	position:absolute;
+	width:90%;
+	pointer-events:none;
+}
+.blogCopy div{
+	position:absolute;
+	font-family:Patrick Hand, Impact, Sans-Serif;
+	font-weight:bold;
+	color:#454545;
+}
+
+#blogTitle{
+	font-size:2.5em;
+	left:120px;
+	top:75px;
+	-webkit-transform: rotate(-4deg); 
+	-moz-transform: rotate(-4deg);
+}
+#blogDate{
+	font-size:2em;
+	left:510px;
+	top:70px;
+}
+#blogContent{
+	font-size:1.3em;
+	line-height:100%;
+	left:120px;
+	top:150px;
+}
+.blogImage{
+	position:absolute;
+	cursor:pointer;
+	-webkit-transform: rotate(-10deg); 
+	-moz-transform: rotate(-10deg);
+}
+.blogImage p{
+	position:absolute;
+	left:20px;
+	top:200px;
+	width:200px;
+	font-size:2em;
+	text-align:center;
+	font-family:Patrick Hand, Impact, Sans-Serif;
+	font-weight:bold;
+	color:#111111;
+	line-height:29px;
+	z-index:4;
+}
+.blogImage p.highlight{
+	color:#ff0000;
+}
+.bgImage{
+	position:absolute;
+	left:19px;
+	top:29px;
+	z-index:2;
+}
+.polaroidImage{
+	position:absolute;
+	z-index:3;
+}
+
+.blogButtons{
+	position:absolute;
+	top:0px;
+	left:-100px;
+	/*z-index:0;*/
+}
+.blogButtons div{
+	position:absolute;
+	cursor:pointer;
+}
+.blogButtons div.highlight{
+	color:#ffffff;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.blogButtons div p{
+	position:absolute;
+	top:70px;
+	left:30px;
+	font-family:Patrick Hand, Impact, Sans-Serif;
+	font-weight:bold;
+	font-size:1em;
+}
+div#lastPost{
+	top:160px;
+	left:55px;
+}
+div#nextPost{
+	top:360px;
+	left:740px;
+}
+img#blogBG{
+	position:absolute;
+	pointer-events:none;
+}
+
+div#blogCounter{
+	position:absolute;
+	left:0px;
+	top:65px;
+	font-family:Patrick Hand, Impact, Sans-Serif;
+	font-weight:bold;
+	font-size:2.5em;
+	color:#ffffff;
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+}
+div#blogCounter p{
+	/*-webkit-text-stroke: 2.0px #000000;
+	-webkit-text-fill-color: #FFFFFF*/
+	
+	/*text-shadow:2px 2px 2px #000000;*/
+}
+
