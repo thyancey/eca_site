@@ -77,4 +77,11 @@
 		<photos>
 		</photos>
 	</blogPost>
+	<blogPost>
+		<title>Now on GitHub</title>
+		<date>08/28/12</date>
+		<content>I've been learning how to use Git through a console, and figured I'd try it out for my site. I'll eventually get a private repo for the actual game.</content>
+		<photos>
+		</photos>
+	</blogPost>
 </data>
